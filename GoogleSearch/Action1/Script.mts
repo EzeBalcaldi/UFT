@@ -2,6 +2,10 @@
 Browser("Google").Navigate "https://www.google.com.ar/?gws_rd=ssl" @@ hightlight id_;_135168_;_script infofile_;_ZIP::ssf1.xml_;_
 
 
+
+Browser("Google").Page("Google").Image("Google").Check CheckPoint("Google") @@ script infofile_;_ZIP::ssf5.xml_;_
+
+
 flag = 0
 
 While flag = 0
